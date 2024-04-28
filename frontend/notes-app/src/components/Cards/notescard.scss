@@ -1,0 +1,24 @@
+.test {
+
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+
+    @media (max-width: 1024px) {
+        // background-color: aqua;
+        align-items: end;
+        flex-direction: row;
+    }
+    height: 100%;
+}
+
+.test2{
+    @media (max-width: 1024px) {
+        display: flex;
+        // background-color: aqua;
+        align-items: end;
+        flex-direction: row;
+    }
+}
